@@ -1,4 +1,5 @@
 # Banner
 This a banner for social media made with CSS and HTML.
-![image](https://github.com/user-attachments/assets/b46c3fcb-41f0-4412-8684-8676cfa9f1e8)
+![image](https://github.com/user-attachments/assets/12131de3-6f74-41ed-b476-0ae8d3c0e5c5)
+
 
