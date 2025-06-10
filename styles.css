@@ -115,3 +115,59 @@ p{
   top: 20%;
   transform: translateY(-50%);
 }
+@media screen and (max-width: 768px) {
+  .banner-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .right h2 {
+    position: static;
+    font-size: 2.2rem;
+    margin-top: 1rem;
+    transform: none;
+    background: linear-gradient(to right, #ffffff, #b9cfff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .left h1 {
+    font-size: 1.6rem;
+  }
+
+  .icons img {
+    width: 32px;
+    height: 32px;
+  }
+
+  p {
+    position: static;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    font-size: 0.95rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .right h2 {
+    font-size: 1.8rem;
+  }
+
+  .left h1 {
+    font-size: 1.4rem;
+  }
+
+  .icons {
+    gap: 8px;
+  }
+
+  .icons img {
+    width: 28px;
+    height: 28px;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
